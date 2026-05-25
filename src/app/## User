@@ -1,0 +1,1661 @@
+## User
+
+أريد بناء الصفحة الرئيسية (Landing Page) لمنصة عربية مستقبلية اسمها:
+
+AI Commerce Platform
+
+وهي منصة ذكاء اصطناعي لمتاجر سلة تساعد أصحاب المتاجر على زيادة المبيعات عبر AI Chatbot ذكي.
+
+━━━━━━━━━━━━━━━━━━━
+المطلوب الآن
+━━━━━━━━━━━━━━━━━━━
+
+بناء Hero Section احترافية جدًا فقط.
+
+لا تبني باقي الأقسام الآن.
+
+━━━━━━━━━━━━━━━━━━━
+التصميم المطلوب
+━━━━━━━━━━━━━━━━━━━
+
+التصميم يجب أن يكون:
+
+- Futuristic SaaS
+- Cinematic
+- Premium Startup
+- Arabic RTL
+- Elegant
+- Minimal
+- مشابه OpenAI + Linear + Vercel
+
+━━━━━━━━━━━━━━━━━━━
+الخلفية
+━━━━━━━━━━━━━━━━━━━
+
+أنشئ خلفية احترافية تحتوي:
+
+- Radial Gradients
+- Ambient Glow
+- Blur Effects
+- Soft Grid Overlay
+- Cyan Lighting
+- Dark futuristic atmosphere
+
+━━━━━━━━━━━━━━━━━━━
+Navbar
+━━━━━━━━━━━━━━━━━━━
+
+أنشئ Navbar زجاجية عائمة تحتوي:
+
+- الرئيسية
+- المميزات
+- الأسعار
+- المدونة
+- تواصل معنا
+
+وزرين:
+
+- تسجيل الدخول
+- ابدأ مجاناً
+
+━━━━━━━━━━━━━━━━━━━
+Hero Content
+━━━━━━━━━━━━━━━━━━━
+
+العنوان الرئيسي:
+
+"حوّل زوار متجرك إلى مشترين في ثوانٍ باستخدام الذكاء الاصطناعي"
+
+اجعل:
+"الذكاء الاصطناعي"
+
+بتأثير Glow Cyan قوي.
+
+━━━━━━━━━━━━━━━━━━━
+الوصف
+━━━━━━━━━━━━━━━━━━━
+
+"شات بوت ذكي يقرأ منتجات متجرك مباشرة من سلة ويجيب العملاء ويرسل روابط شراء مباشرة لزيادة المبيعات تلقائياً."
+
+━━━━━━━━━━━━━━━━━━━
+الأزرار
+━━━━━━━━━━━━━━━━━━━
+
+زر أساسي متوهج:
+
+"ابدأ تجربتك المجانية الآن"
+
+زر ثانوي زجاجي:
+
+"شاهد الديمو الحقيقي"
+
+━━━━━━━━━━━━━━━━━━━
+Visual Mockup
+━━━━━━━━━━━━━━━━━━━
+
+أنشئ تصميم Visual احترافي يحتوي:
+
+- شاشة متجر إلكتروني
+- بطاقات منتجات
+- AI Chat Widget
+- Product Card
+- سعر المنتج
+- زر شراء
+- Floating Glass Cards
+
+━━━━━━━━━━━━━━━━━━━
+التأثيرات
+━━━━━━━━━━━━━━━━━━━
+
+استخدم Framer Motion بحركات ناعمة فقط:
+
+- fade in
+- floating animation
+- smooth hover
+- glow transitions
+
+━━━━━━━━━━━━━━━━━━━
+نظام الألوان
+━━━━━━━━━━━━━━━━━━━
+
+Background:
+#020617
+
+Surface:
+#0B132B
+
+Primary Cyan:
+#00D9FF
+
+Glow Cyan:
+#22D3EE
+
+Purple Accent:
+#7C3AED
+
+Text:
+#FFFFFF
+
+Muted:
+#94A3B8
+
+━━━━━━━━━━━━━━━━━━━
+مهم جدًا
+━━━━━━━━━━━━━━━━━━━
+
+- استخدم Tailwind CSS فقط
+- لا تستخدم مكتبات UI خارجية
+- اجعل التصميم Responsive بالكامل
+- لا تجعل الصفحة مزدحمة
+- لا تبالغ بالتأثيرات
+- اجعل الكود مرتب وقابل للتطوير
+- حافظ على الأداء الجيد
+
+## Assistant
+
+سأفحص بنية المشروع أولًا لأعرف الإطار المستخدم وأماكن ملفات الواجهة، ثم أبني Hero Section فقط بما يتوافق مع Tailwind وFramer Motion.
+
+**Tool Call: List the `C:\Users\hp\Desktop\MM` directory's contents**
+Status: Completed
+
+# Folders:
+MM\ai-commerce-platform
+
+
+**Tool Call: List the `C:\Users\hp\Desktop\MM\ai-commerce-platform` directory's contents**
+Status: Completed
+
+# Folders:
+MM\ai-commerce-platform\.next
+MM\ai-commerce-platform\node_modules
+MM\ai-commerce-platform\public
+MM\ai-commerce-platform\src
+
+# Files:
+MM\ai-commerce-platform\.gitignore
+MM\ai-commerce-platform\AGENTS.md
+MM\ai-commerce-platform\CLAUDE.md
+MM\ai-commerce-platform\README.md
+MM\ai-commerce-platform\eslint.config.mjs
+MM\ai-commerce-platform\next-env.d.ts
+MM\ai-commerce-platform\next.config.ts
+MM\ai-commerce-platform\package-lock.json
+MM\ai-commerce-platform\package.json
+MM\ai-commerce-platform\postcss.config.mjs
+MM\ai-commerce-platform\tsconfig.json
+
+
+## Assistant
+
+سأراجع ملفات التطبيق والإعدادات الأساسية لتحديد الصفحة الرئيسية الحالية والتأكد من توفر Framer Motion.
+
+**Tool Call: Read file `ai-commerce-platform\package.json`**
+Status: Completed
+
+```json
+{
+  "Text": "{\n  \"name\": \"ai-commerce-platform\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"lint\": \"eslint\"\n  },\n  \"dependencies\": {\n    \"next\": \"16.2.6\",\n    \"react\": \"19.2.4\",\n    \"react-dom\": \"19.2.4\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/postcss\": \"^4\",\n    \"@types/node\": \"^20\",\n    \"@types/react\": \"^19\",\n    \"@types/react-dom\": \"^19\",\n    \"babel-plugin-react-compiler\": \"1.0.0\",\n    \"eslint\": \"^9\",\n    \"eslint-config-next\": \"16.2.6\",\n    \"tailwindcss\": \"^4\",\n    \"typescript\": \"^5\"\n  }\n}\n"
+}
+```
+
+**Tool Call: Find paths matching “`C:\Users\hp\Desktop\MM\ai-commerce-platform\src/**/*`”**
+Status: Completed
+
+```json
+{
+  "offset": 0,
+  "current_matches_page": [],
+  "all_matches_len": 0
+}
+```
+
+## Assistant
+
+<thinking>
+**Figuring out directory paths**
+
+It seems I've encountered an issue with finding the path due to the root. I’m thinking that using the root directory might need to be exact, like "MM\\ai-commerce-platform." The tools show paths with an MM prefix, but the root directory is listed absolutely while examples are relative. I'm curious if using "MM\\ai-commerce-platform" will work as the absolute path instead. This is quite a puzzle to figure out!
+</thinking>
+
+**Tool Call: List the `C:\Users\hp\Desktop\MM\ai-commerce-platform\src` directory's contents**
+Status: Completed
+
+# Folders:
+MM\ai-commerce-platform\src\app
+
+
+**Tool Call: Find paths matching “`**/*`”**
+Status: Completed
+
+```json
+{
+  "offset": 0,
+  "current_matches_page": [
+    "C:\\Users\\hp\\Desktop\\MM",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\.gitignore",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\AGENTS.md",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\CLAUDE.md",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\README.md",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\eslint.config.mjs",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\next.config.ts",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\package-lock.json",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\package.json",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\postcss.config.mjs",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public\\file.svg",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public\\globe.svg",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public\\next.svg",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public\\vercel.svg",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\public\\window.svg",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src\\app",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src\\app\\favicon.ico",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src\\app\\globals.css",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src\\app\\layout.tsx",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\src\\app\\page.tsx",
+    "C:\\Users\\hp\\Desktop\\MM\\ai-commerce-platform\\tsconfig.json"
+  ],
+  "all_matches_len": 24
+}
+```
+
+**Tool Call: Read file `ai-commerce-platform\src\app\page.tsx`**
+Status: Completed
+
+```json
+{
+  "Text": ""
+}
+```
+
+**Tool Call: Read file `ai-commerce-platform\src\app\globals.css`**
+Status: Completed
+
+```json
+{
+  "Text": "@import \"tailwindcss\";\n\n:root {\n  --background: #ffffff;\n  --foreground: #171717;\n}\n\n@theme inline {\n  --color-background: var(--background);\n  --color-foreground: var(--foreground);\n  --font-sans: var(--font-geist-sans);\n  --font-mono: var(--font-geist-mono);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --background: #0a0a0a;\n    --foreground: #ededed;\n  }\n}\n\nbody {\n  background: var(--background);\n  color: var(--foreground);\n  font-family: Arial, Helvetica, sans-serif;\n}\n"
+}
+```
+
+**Tool Call: Read file `ai-commerce-platform\src\app\layout.tsx`**
+Status: Completed
+
+```json
+{
+  "Text": "import type { Metadata } from \"next\";\nimport { Geist, Geist_Mono } from \"next/font/google\";\nimport \"./globals.css\";\n\nconst geistSans = Geist({\n  variable: \"--font-geist-sans\",\n  subsets: [\"latin\"],\n});\n\nconst geistMono = Geist_Mono({\n  variable: \"--font-geist-mono\",\n  subsets: [\"latin\"],\n});\n\nexport const metadata: Metadata = {\n  title: \"Create Next App\",\n  description: \"Generated by create next app\",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html\n      lang=\"en\"\n      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}\n    >\n      <body className=\"min-h-full flex flex-col\">{children}</body>\n    </html>\n  );\n}\n"
+}
+```
+
+## Assistant
+
+<thinking>
+**Installing framer-motion**
+
+I realize I need to install framer-motion since the user specifically requested it. Adding the dependency is crucial, so I'll go ahead with `npm install framer-motion` instead of editing the package files. 
+
+Since I'm working with a Next.js app, I need to ensure that the page is a client component to use motion. I might also need to consider using Noto Sans Arabic from next/font/google for layout because other fonts may not support Arabic well. 
+
+Lastly, I need to update the metadata for language and direction before building the hero section.
+</thinking>
+
+الصفحة الرئيسية فارغة حاليًا، وسأضيف Framer Motion كاعتماد مطلوب ثم أكتب Hero Section داخل `src/app/page.tsx` مع ضبط اللغة والاتجاه العربيين.
+
+**Tool Call: npm install framer-motion**
+Status: Completed
+
+```
+added 3 packages, and audited 364 packages in 11s
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+```
+
+## Assistant
+
+سأستبدل محتوى الصفحة الرئيسية الفارغ بمكوّن Hero كامل، وأحدّث إعدادات `layout` و`globals` لدعم RTL والخط العربي والخلفية الداكنة.
+
+**Tool Call: ai\-commerce\-platform\\src\\app\\page.tsx**
+Status: Completed
+
+Diff: C:\Users\hp\Desktop\MM\ai-commerce-platform\src\app\page.tsx
+```
+"use client";
+
+import { motion } from "framer-motion";
+
+const navItems = ["الرئيسية", "المميزات", "الأسعار", "المدونة", "تواصل معنا"];
+
+const products = [
+  { name: "سماعات برو", price: "349 ر.س" },
+  { name: "ساعة ذكية", price: "599 ر.س" },
+];
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0 },
+};
+
+export default function Home() {
+  return (
+    <main
+      className="relative min-h-screen overflow-hidden bg-[#020617] text-white"
+      dir="rtl"
+    >
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_12%_18%,rgba(124,58,237,0.18),transparent_26%),radial-gradient(circle_at_88%_42%,rgba(0,217,255,0.14),transparent_28%),linear-gradient(180deg,#020617_0%,#07111f_48%,#020617_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]" />
+        <div className="absolute left-1/2 top-24 h-80 w-80 -translate-x-1/2 rounded-full bg-[#00D9FF]/15 blur-[110px]" />
+        <div className="absolute -left-24 top-1/3 h-96 w-96 rounded-full bg-[#7C3AED]/18 blur-[130px]" />
+        <div className="absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-[#22D3EE]/10 blur-[100px]" />
+      </div>
+
+      <header className="relative z-20 mx-auto flex w-full max-w-7xl items-center justify-center px-4 pt-5 sm:px-6 lg:px-8">
+        <motion.nav
+          initial={{ opacity: 0, y: -14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="flex w-full items-center justify-between rounded-full border border-white/10 bg-white/[0.045] px-4 py-3 shadow-2xl shadow-cyan-950/20 backdrop-blur-2xl sm:px-5"
+        >
+          <a
+            href="#"
+            className="group flex items-center gap-3"
+            aria-label="AI Commerce Platform"
+          >
+            <span className="grid h-9 w-9 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_28px_rgba(34,211,238,0.25)] transition duration-300 group-hover:border-cyan-300/50 group-hover:bg-cyan-300/15">
+              <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
+            </span>
+            <span className="hidden text-sm font-semibold tracking-wide text-white sm:block">
+              AI Commerce
+            </span>
+          </a>
+
+          <div className="hidden items-center gap-1 lg:flex">
+            {navItems.map((item) => (
+              <a
+                key={item}
+                href="#"
+                className="rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <a
+              href="#"
+              className="hidden rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white sm:inline-flex"
+            >
+              تسجيل الدخول
+            </a>
+            <a
+              href="#"
+              className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_24px_rgba(255,255,255,0.18)] transition duration-300 hover:scale-[1.02] hover:bg-cyan-100 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]"
+            >
+              ابدأ مجاناً
+            </a>
+          </div>
+        </motion.nav>
+      </header>
+
+      <section className="relative z-10 mx-auto grid min-h-[calc(100vh-88px)] w-full max-w-7xl items-center gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_0.98fr] lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-3xl text-center lg:mx-0 lg:text-right">
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/[0.06] px-4 py-2 text-sm text-cyan-100 shadow-[0_0_32px_rgba(34,211,238,0.12)] backdrop-blur-xl"
+          >
+            <span className="h-2 w-2 rounded-full bg-[#22D3EE] shadow-[0_0_14px_rgba(34,211,238,0.95)]" />
+            منصة ذكاء اصطناعي مصممة لمتاجر سلة
+          </motion.div>
+
+          <motion.h1
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.08, ease: "easeOut" }}
+            className="text-balance text-4xl font-semibold leading-[1.18] tracking-[-0.03em] text-white sm:text-5xl lg:text-6xl xl:text-7xl"
+          >
+            حوّل زوار متجرك إلى مشترين في ثوانٍ باستخدام{" "}
+            <span className="relative inline-block text-[#CFFAFE] drop-shadow-[0_0_24px_rgba(34,211,238,0.85)]">
+              الذكاء الاصطناعي
+              <span className="absolute inset-x-0 -bottom-2 h-px bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent shadow-[0_0_18px_rgba(0,217,255,0.95)]" />
+            </span>
+          </motion.h1>
+
+          <motion.p
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.18, ease: "easeOut" }}
+            className="mx-auto mt-7 max-w-2xl text-pretty text-lg leading-8 text-[#94A3B8] sm:text-xl lg:mx-0"
+          >
+            شات بوت ذكي يقرأ منتجات متجرك مباشرة من سلة ويجيب العملاء ويرسل
+            روابط شراء مباشرة لزيادة المبيعات تلقائياً.
+          </motion.p>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.28, ease: "easeOut" }}
+            className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start"
+          >
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-[#00D9FF] px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_0_42px_rgba(0,217,255,0.45)] transition duration-300 hover:shadow-[0_0_60px_rgba(34,211,238,0.62)] sm:w-auto"
+            >
+              <span className="absolute inset-0 bg-gradient-to-l from-white/35 via-transparent to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
+              <span className="relative">ابدأ تجربتك المجانية الآن</span>
+            </motion.a>
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="inline-flex w-full items-center justify-center rounded-full border border-white/12 bg-white/[0.055] px-7 py-4 text-sm font-semibold text-white shadow-2xl shadow-black/20 backdrop-blur-xl transition duration-300 hover:border-cyan-300/30 hover:bg-white/[0.085] hover:text-cyan-50 sm:w-auto"
+            >
+              شاهد الديمو الحقيقي
+            </motion.a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, x: -28 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.9, delay: 0.18, ease: "easeOut" }}
+          className="relative mx-auto w-full max-w-[620px] lg:mx-0"
+        >
+          <motion.div
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+            className="relative rounded-[2rem] border border-white/10 bg-[#0B132B]/78 p-3 shadow-[0_28px_90px_rgba(0,0,0,0.48),0_0_70px_rgba(34,211,238,0.13)] backdrop-blur-2xl"
+          >
+            <div className="absolute -inset-px rounded-[2rem] bg-gradient-to-br from-cyan-300/25 via-white/5 to-purple-500/20 opacity-70 blur-sm" />
+            <div className="relative overflow-hidden rounded-[1.55rem] border border-white/8 bg-slate-950/70">
+              <div className="flex items-center justify-between border-b border-white/8 bg-white/[0.035] px-5 py-4">
+                <div className="flex items-center gap-2">
+                  <span className="h-3 w-3 rounded-full bg-red-400/80" />
+                  <span className="h-3 w-3 rounded-full bg-amber-300/80" />
+                  <span className="h-3 w-3 rounded-full bg-emerald-400/80" />
+                </div>
+                <div className="rounded-full border border-white/8 bg-white/[0.04] px-4 py-1.5 text-xs text-slate-400">
+                  mystore.sa
+                </div>
+              </div>
+
+              <div className="grid gap-4 p-5 sm:grid-cols-[1fr_0.86fr]">
+                <div className="space-y-4">
+                  <div className="rounded-3xl border border-white/8 bg-white/[0.045] p-4">
+                    <div className="mb-4 h-36 rounded-2xl bg-[radial-gradient(circle_at_35%_25%,rgba(34,211,238,0.32),transparent_36%),linear-gradient(135deg,rgba(255,255,255,0.12),rgba(124,58,237,0.16))] shadow-inner shadow-white/5" />
+                    <div className="flex items-start justify-between gap-4">
+                      <div>
+                        <p className="text-sm font-semibold text-white">
+                          سماعات عزل ذكية
+                        </p>
+                        <p className="mt-1 text-xs text-slate-400">
+                          اقتراح AI حسب اهتمام العميل
+                        </p>
+                      </div>
+                      <span className="rounded-full bg-cyan-300/10 px-3 py-1 text-sm font-bold text-cyan-200">
+                        349 ر.س
+                      </span>
+                    </div>
+                    <button className="mt-4 w-full rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-950 transition duration-300 hover:bg-cyan-100">
+                      شراء الآن
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    {products.map((product) => (
+                      <div
+                        key={product.name}
+                        className="rounded-2xl border border-white/8 bg-white/[0.04] p-3"
+                      >
+                        <div className="mb-3 h-14 rounded-xl bg-gradient-to-br from-cyan-300/14 to-purple-500/18" />
+                        <p className="truncate text-xs text-slate-300">
+                          {product.name}
+                        </p>
+                        <p className="mt-1 text-sm font-bold text-white">
+                          {product.price}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="relative flex min-h-[320px] flex-col justify-end overflow-hidden rounded-3xl border border-cyan-300/12 bg-[#06101f]/80 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(34,211,238,0.16),transparent_46%)]" />
+                  <div className="relative mb-auto flex items-center gap-3 rounded-2xl border border-white/8 bg-white/[0.045] p-3">
+                    <span className="grid h-10 w-10 place-items-center rounded-2xl bg-cyan-300/12 text-sm font-black text-cyan-200 shadow-[0_0_24px_rgba(34,211,238,0.22)]">
+                      AI
+                    </span>
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        مساعد المتجر
+                      </p>
+                      <p className="text-xs text-cyan-100/70">
+                        متصل بمنتجات سلة
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative space-y-3">
+                    <div className="mr-auto max-w-[88%] rounded-2xl rounded-bl-md border border-white/8 bg-white/[0.06] p-3 text-xs leading-6 text-slate-200">
+                      أبحث عن هدية تقنية بسعر مناسب.
+                    </div>
+                    <div className="max-w-[92%] rounded-2xl rounded-br-md border border-cyan-300/16 bg-cyan-300/[0.08] p-3 text-xs leading-6 text-cyan-50 shadow-[0_0_28px_rgba(34,211,238,0.12)]">
+                      أنصحك بسماعات العزل الذكية. مناسبة جدًا، متوفرة الآن،
+                      ويمكنك شراؤها مباشرة.
+                    </div>
+                    <div className="rounded-2xl border border-white/8 bg-white/[0.055] p-3">
+                      <div className="flex items-center justify-between gap-3">
+                        <div>
+                          <p className="text-xs font-semibold text-white">
+                            سماعات عزل ذكية
+                          </p>
+                          <p className="text-xs text-slate-400">349 ر.س</p>
+                        </div>
+                        <button className="rounded-full bg-[#00D9FF] px-3 py-2 text-xs font-bold text-slate-950 shadow-[0_0_22px_rgba(0,217,255,0.35)]">
+                          رابط الشراء
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -right-2 top-20 hidden rounded-2xl border border-white/10 bg-white/[0.07] px-4 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">معدل التحويل</p>
+            <p className="mt-1 text-2xl font-bold text-white">+38%</p>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 5.8, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -bottom-5 left-3 hidden rounded-2xl border border-cyan-300/15 bg-[#0B132B]/70 px-4 py-3 shadow-[0_0_34px_rgba(34,211,238,0.12)] backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">رسائل AI اليوم</p>
+            <p className="mt-1 text-2xl font-bold text-cyan-100">1,284</p>
+          </motion.div>
+        </motion.div>
+      </section>
+    </main>
+  );
+}
+
+```
+
+
+## Assistant
+
+<thinking>
+**Editing layout and globals**
+
+I found an interesting page that actually has existing content, even though it seemed empty at first. So, I'll need to adjust the layout and perhaps look at the global settings as well. It’s a bit surprising to see that there’s content to work with, and I want to ensure I make the necessary edits effectively. Let’s see how to improve it!
+</thinking>
+
+**Tool Call: ai\-commerce\-platform\\src\\app\\layout.tsx**
+Status: Completed
+
+Diff: C:\Users\hp\Desktop\MM\ai-commerce-platform\src\app\layout.tsx
+```
+import type { Metadata } from "next";
+import { Geist_Mono, Noto_Sans_Arabic } from "next/font/google";
+import "./globals.css";
+
+const notoArabic = Noto_Sans_Arabic({
+  variable: "--font-noto-arabic",
+  subsets: ["arabic"],
+  display: "swap",
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "AI Commerce Platform",
+  description:
+    "منصة ذكاء اصطناعي لمتاجر سلة تساعد على زيادة المبيعات عبر شات بوت ذكي.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="ar"
+      dir="rtl"
+      className={`${notoArabic.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col bg-[#020617]">{children}</body>
+    </html>
+  );
+}
+
+```
+
+
+**Tool Call: ai\-commerce\-platform\\src\\app\\globals.css**
+Status: Completed
+
+Diff: C:\Users\hp\Desktop\MM\ai-commerce-platform\src\app\globals.css
+```
+@import "tailwindcss";
+
+:root {
+    --background: #020617;
+    --foreground: #ffffff;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-noto-arabic);
+    --font-mono: var(--font-geist-mono);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-noto-arabic), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    background: rgba(34, 211, 238, 0.28);
+    color: #ffffff;
+}
+
+```
+
+
+## Assistant
+
+<thinking>
+**Validating build issues**
+
+I need to validate the situation first, but it looks like there's a change in the package lock file. This might lead to build errors, potentially due to the framer motion library with React compiler. So, I think I should run lint and build to check for any issues. It's important to get everything right here to avoid further complications down the line. This is a good way to address any underlying errors!
+</thinking>
+
+## User (checkpoint)
+
+أريد الآن بناء قسم احترافي جدًا أسفل الـ Hero Section الحالية.
+
+━━━━━━━━━━━━━━━━━━━
+القسم المطلوب
+━━━━━━━━━━━━━━━━━━━
+
+How It Works Section
+
+بعنوان عربي احترافي:
+
+"3 خطوات والتشغيل فوراً"
+
+ووصف قصير:
+
+"اربط متجرك وابدأ تشغيل الذكاء الاصطناعي خلال دقائق."
+
+━━━━━━━━━━━━━━━━━━━
+الخطوات
+━━━━━━━━━━━━━━━━━━━
+
+الخطوة الأولى:
+"أنشئ حسابك واربط متجرك"
+
+الوصف:
+"قم بإنشاء حساب وربط متجرك في سلة بسهولة خلال دقائق."
+
+━━━━━━━━━━━━━━━━━━━
+
+الخطوة الثانية:
+"أضف رابط Product Feed"
+
+الوصف:
+"الصق رابط المنتجات الخاص بمتجرك ليبدأ الذكاء الاصطناعي بقراءة البيانات تلقائياً."
+
+━━━━━━━━━━━━━━━━━━━
+
+الخطوة الثالثة:
+"ثبت الـ Widget داخل متجرك"
+
+الوصف:
+"انسخ كود الـ Widget وضعه داخل الثيم ليظهر البوت مباشرة للعملاء."
+
+━━━━━━━━━━━━━━━━━━━
+التصميم المطلوب
+━━━━━━━━━━━━━━━━━━━
+
+أريد التصميم أن يكون:
+
+- Futuristic SaaS
+- Arabic RTL
+- Cinematic
+- Premium Startup UI
+- Minimal
+- Elegant
+- Highly polished
+
+━━━━━━━━━━━━━━━━━━━
+الـ Layout
+━━━━━━━━━━━━━━━━━━━
+
+أنشئ 3 بطاقات أفقية أو Grid احترافية.
+
+كل بطاقة تحتوي:
+
+- رقم كبير
+- أيقونة احترافية من lucide-react
+- عنوان
+- وصف
+- Glow Effect
+- Hover Animation
+
+━━━━━━━━━━━━━━━━━━━
+الخلفية والتأثيرات
+━━━━━━━━━━━━━━━━━━━
+
+أضف:
+
+- Ambient Glow
+- Cyan Blur Effects
+- Soft Grid Overlay
+- Floating Glow
+- Gradient Borders
+- Glassmorphism خفيف
+
+━━━━━━━━━━━━━━━━━━━
+الحركات
+━━━━━━━━━━━━━━━━━━━
+
+استخدم Framer Motion بحركات ناعمة فقط:
+
+- fade up
+- soft hover
+- floating effect
+- subtle scale
+- glow transition
+
+━━━━━━━━━━━━━━━━━━━
+نظام الألوان
+━━━━━━━━━━━━━━━━━━━
+
+Background:
+#020617
+
+Surface:
+#0B132B
+
+Primary Cyan:
+#00D9FF
+
+Glow Cyan:
+#22D3EE
+
+Purple Accent:
+#7C3AED
+
+Text:
+#FFFFFF
+
+Muted:
+#94A3B8
+
+━━━━━━━━━━━━━━━━━━━
+مهم جدًا
+━━━━━━━━━━━━━━━━━━━
+
+- لا تعدل الـ Hero الحالية
+- لا تكسر الـ Layout
+- أضف القسم الجديد فقط
+- استخدم Tailwind CSS فقط
+- اجعل التصميم Responsive بالكامل
+- اجعل النتيجة احترافية ونظيفة جدًا
+
+## Assistant
+
+<thinking>
+**Installing and preparing for lucide-react**
+
+I need to continue from earlier and add a section below the hero without altering it, just inserting before the main closing, which might require importing lucide. Since lucide-react isn't present, I'll need to install it. The user specifically wants icons from lucide-react. Before making any changes, I should read the relevant file to know the current setup. I already know the path, but I'll check the instructions on using read_file for clarity.
+</thinking>
+
+سأضيف الاعتماد المطلوب للأيقونات (`lucide-react`) ثم أدرج قسم How It Works أسفل الـ Hero مباشرة دون تغيير بنية الـ Hero الحالية.
+
+**Tool Call: npm install lucide-react**
+Status: Completed
+
+Terminal:
+```
+
+added 1 package, and audited 365 packages in 24s
+
+142 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+```
+
+
+**Tool Call: Read file `ai-commerce-platform\src\app\page.tsx` (lines 1-320)**
+Status: Completed
+
+```C:\Users\hp\Desktop\MM\ai-commerce-platform\src\app\page.tsx
+"use client";
+
+import { motion } from "framer-motion";
+
+const navItems = ["الرئيسية", "المميزات", "الأسعار", "المدونة", "تواصل معنا"];
+
+const products = [
+  { name: "سماعات برو", price: "349 ر.س" },
+  { name: "ساعة ذكية", price: "599 ر.س" },
+];
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0 },
+};
+
+export default function Home() {
+  return (
+    <main
+      className="relative min-h-screen overflow-hidden bg-[#020617] text-white"
+      dir="rtl"
+    >
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_12%_18%,rgba(124,58,237,0.18),transparent_26%),radial-gradient(circle_at_88%_42%,rgba(0,217,255,0.14),transparent_28%),linear-gradient(180deg,#020617_0%,#07111f_48%,#020617_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]" />
+        <div className="absolute left-1/2 top-24 h-80 w-80 -translate-x-1/2 rounded-full bg-[#00D9FF]/15 blur-[110px]" />
+        <div className="absolute -left-24 top-1/3 h-96 w-96 rounded-full bg-[#7C3AED]/18 blur-[130px]" />
+        <div className="absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-[#22D3EE]/10 blur-[100px]" />
+      </div>
+
+      <header className="relative z-20 mx-auto flex w-full max-w-7xl items-center justify-center px-4 pt-5 sm:px-6 lg:px-8">
+        <motion.nav
+          initial={{ opacity: 0, y: -14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="flex w-full items-center justify-between rounded-full border border-white/10 bg-white/[0.045] px-4 py-3 shadow-2xl shadow-cyan-950/20 backdrop-blur-2xl sm:px-5"
+        >
+          <a
+            href="#"
+            className="group flex items-center gap-3"
+            aria-label="AI Commerce Platform"
+          >
+            <span className="grid h-9 w-9 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_28px_rgba(34,211,238,0.25)] transition duration-300 group-hover:border-cyan-300/50 group-hover:bg-cyan-300/15">
+              <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
+            </span>
+            <span className="hidden text-sm font-semibold tracking-wide text-white sm:block">
+              AI Commerce
+            </span>
+          </a>
+
+          <div className="hidden items-center gap-1 lg:flex">
+            {navItems.map((item) => (
+              <a
+                key={item}
+                href="#"
+                className="rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <a
+              href="#"
+              className="hidden rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white sm:inline-flex"
+            >
+              تسجيل الدخول
+            </a>
+            <a
+              href="#"
+              className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_24px_rgba(255,255,255,0.18)] transition duration-300 hover:scale-[1.02] hover:bg-cyan-100 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]"
+            >
+              ابدأ مجاناً
+            </a>
+          </div>
+        </motion.nav>
+      </header>
+
+      <section className="relative z-10 mx-auto grid min-h-[calc(100vh-88px)] w-full max-w-7xl items-center gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_0.98fr] lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-3xl text-center lg:mx-0 lg:text-right">
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/[0.06] px-4 py-2 text-sm text-cyan-100 shadow-[0_0_32px_rgba(34,211,238,0.12)] backdrop-blur-xl"
+          >
+            <span className="h-2 w-2 rounded-full bg-[#22D3EE] shadow-[0_0_14px_rgba(34,211,238,0.95)]" />
+            منصة ذكاء اصطناعي مصممة لمتاجر سلة
+          </motion.div>
+
+          <motion.h1
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.08, ease: "easeOut" }}
+            className="text-balance text-4xl font-semibold leading-[1.18] tracking-[-0.03em] text-white sm:text-5xl lg:text-6xl xl:text-7xl"
+          >
+            حوّل زوار متجرك إلى مشترين في ثوانٍ باستخدام{" "}
+            <span className="relative inline-block text-[#CFFAFE] drop-shadow-[0_0_24px_rgba(34,211,238,0.85)]">
+              الذكاء الاصطناعي
+              <span className="absolute inset-x-0 -bottom-2 h-px bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent shadow-[0_0_18px_rgba(0,217,255,0.95)]" />
+            </span>
+          </motion.h1>
+
+          <motion.p
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.18, ease: "easeOut" }}
+            className="mx-auto mt-7 max-w-2xl text-pretty text-lg leading-8 text-[#94A3B8] sm:text-xl lg:mx-0"
+          >
+            شات بوت ذكي يقرأ منتجات متجرك مباشرة من سلة ويجيب العملاء ويرسل
+            روابط شراء مباشرة لزيادة المبيعات تلقائياً.
+          </motion.p>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.28, ease: "easeOut" }}
+            className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start"
+          >
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-[#00D9FF] px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_0_42px_rgba(0,217,255,0.45)] transition duration-300 hover:shadow-[0_0_60px_rgba(34,211,238,0.62)] sm:w-auto"
+            >
+              <span className="absolute inset-0 bg-gradient-to-l from-white/35 via-transparent to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
+              <span className="relative">ابدأ تجربتك المجانية الآن</span>
+            </motion.a>
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="inline-flex w-full items-center justify-center rounded-full border border-white/12 bg-white/[0.055] px-7 py-4 text-sm font-semibold text-white shadow-2xl shadow-black/20 backdrop-blur-xl transition duration-300 hover:border-cyan-300/30 hover:bg-white/[0.085] hover:text-cyan-50 sm:w-auto"
+            >
+              شاهد الديمو الحقيقي
+            </motion.a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, x: -28 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.9, delay: 0.18, ease: "easeOut" }}
+          className="relative mx-auto w-full max-w-[620px] lg:mx-0"
+        >
+          <motion.div
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+            className="relative rounded-[2rem] border border-white/10 bg-[#0B132B]/78 p-3 shadow-[0_28px_90px_rgba(0,0,0,0.48),0_0_70px_rgba(34,211,238,0.13)] backdrop-blur-2xl"
+          >
+            <div className="absolute -inset-px rounded-[2rem] bg-gradient-to-br from-cyan-300/25 via-white/5 to-purple-500/20 opacity-70 blur-sm" />
+            <div className="relative overflow-hidden rounded-[1.55rem] border border-white/8 bg-slate-950/70">
+              <div className="flex items-center justify-between border-b border-white/8 bg-white/[0.035] px-5 py-4">
+                <div className="flex items-center gap-2">
+                  <span className="h-3 w-3 rounded-full bg-red-400/80" />
+                  <span className="h-3 w-3 rounded-full bg-amber-300/80" />
+                  <span className="h-3 w-3 rounded-full bg-emerald-400/80" />
+                </div>
+                <div className="rounded-full border border-white/8 bg-white/[0.04] px-4 py-1.5 text-xs text-slate-400">
+                  mystore.sa
+                </div>
+              </div>
+
+              <div className="grid gap-4 p-5 sm:grid-cols-[1fr_0.86fr]">
+                <div className="space-y-4">
+                  <div className="rounded-3xl border border-white/8 bg-white/[0.045] p-4">
+                    <div className="mb-4 h-36 rounded-2xl bg-[radial-gradient(circle_at_35%_25%,rgba(34,211,238,0.32),transparent_36%),linear-gradient(135deg,rgba(255,255,255,0.12),rgba(124,58,237,0.16))] shadow-inner shadow-white/5" />
+                    <div className="flex items-start justify-between gap-4">
+                      <div>
+                        <p className="text-sm font-semibold text-white">
+                          سماعات عزل ذكية
+                        </p>
+                        <p className="mt-1 text-xs text-slate-400">
+                          اقتراح AI حسب اهتمام العميل
+                        </p>
+                      </div>
+                      <span className="rounded-full bg-cyan-300/10 px-3 py-1 text-sm font-bold text-cyan-200">
+                        349 ر.س
+                      </span>
+                    </div>
+                    <button className="mt-4 w-full rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-950 transition duration-300 hover:bg-cyan-100">
+                      شراء الآن
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    {products.map((product) => (
+                      <div
+                        key={product.name}
+                        className="rounded-2xl border border-white/8 bg-white/[0.04] p-3"
+                      >
+                        <div className="mb-3 h-14 rounded-xl bg-gradient-to-br from-cyan-300/14 to-purple-500/18" />
+                        <p className="truncate text-xs text-slate-300">
+                          {product.name}
+                        </p>
+                        <p className="mt-1 text-sm font-bold text-white">
+                          {product.price}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="relative flex min-h-[320px] flex-col justify-end overflow-hidden rounded-3xl border border-cyan-300/12 bg-[#06101f]/80 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(34,211,238,0.16),transparent_46%)]" />
+                  <div className="relative mb-auto flex items-center gap-3 rounded-2xl border border-white/8 bg-white/[0.045] p-3">
+                    <span className="grid h-10 w-10 place-items-center rounded-2xl bg-cyan-300/12 text-sm font-black text-cyan-200 shadow-[0_0_24px_rgba(34,211,238,0.22)]">
+                      AI
+                    </span>
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        مساعد المتجر
+                      </p>
+                      <p className="text-xs text-cyan-100/70">
+                        متصل بمنتجات سلة
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative space-y-3">
+                    <div className="mr-auto max-w-[88%] rounded-2xl rounded-bl-md border border-white/8 bg-white/[0.06] p-3 text-xs leading-6 text-slate-200">
+                      أبحث عن هدية تقنية بسعر مناسب.
+                    </div>
+                    <div className="max-w-[92%] rounded-2xl rounded-br-md border border-cyan-300/16 bg-cyan-300/[0.08] p-3 text-xs leading-6 text-cyan-50 shadow-[0_0_28px_rgba(34,211,238,0.12)]">
+                      أنصحك بسماعات العزل الذكية. مناسبة جدًا، متوفرة الآن،
+                      ويمكنك شراؤها مباشرة.
+                    </div>
+                    <div className="rounded-2xl border border-white/8 bg-white/[0.055] p-3">
+                      <div className="flex items-center justify-between gap-3">
+                        <div>
+                          <p className="text-xs font-semibold text-white">
+                            سماعات عزل ذكية
+                          </p>
+                          <p className="text-xs text-slate-400">349 ر.س</p>
+                        </div>
+                        <button className="rounded-full bg-[#00D9FF] px-3 py-2 text-xs font-bold text-slate-950 shadow-[0_0_22px_rgba(0,217,255,0.35)]">
+                          رابط الشراء
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -right-2 top-20 hidden rounded-2xl border border-white/10 bg-white/[0.07] px-4 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">معدل التحويل</p>
+            <p className="mt-1 text-2xl font-bold text-white">+38%</p>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 5.8, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -bottom-5 left-3 hidden rounded-2xl border border-cyan-300/15 bg-[#0B132B]/70 px-4 py-3 shadow-[0_0_34px_rgba(34,211,238,0.12)] backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">رسائل AI اليوم</p>
+            <p className="mt-1 text-2xl font-bold text-cyan-100">1,284</p>
+          </motion.div>
+        </motion.div>
+      </section>
+    </main>
+  );
+}
+
+```
+
+
+## Assistant
+
+سأضيف مصفوفة الخطوات والأيقونات، ثم أضع القسم الجديد بعد إغلاق قسم الـ Hero مباشرة وقبل نهاية الصفحة.
+
+**Tool Call: ai\-commerce\-platform\\src\\app\\page.tsx**
+Status: Completed
+
+Diff: ai-commerce-platform\src\app\page.tsx
+```
+"use client";
+
+import { motion } from "framer-motion";
+import { Code2, Link2, UserPlus } from "lucide-react";
+
+const navItems = ["الرئيسية", "المميزات", "الأسعار", "المدونة", "تواصل معنا"];
+
+const products = [
+  { name: "سماعات برو", price: "349 ر.س" },
+  { name: "ساعة ذكية", price: "599 ر.س" },
+];
+
+const steps = [
+  {
+    number: "01",
+    icon: UserPlus,
+    title: "أنشئ حسابك واربط متجرك",
+    description: "قم بإنشاء حساب وربط متجرك في سلة بسهولة خلال دقائق.",
+  },
+  {
+    number: "02",
+    icon: Link2,
+    title: "أضف رابط Product Feed",
+    description:
+      "الصق رابط المنتجات الخاص بمتجرك ليبدأ الذكاء الاصطناعي بقراءة البيانات تلقائياً.",
+  },
+  {
+    number: "03",
+    icon: Code2,
+    title: "ثبت الـ Widget داخل متجرك",
+    description:
+      "انسخ كود الـ Widget وضعه داخل الثيم ليظهر البوت مباشرة للعملاء.",
+  },
+];
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0 },
+};
+
+export default function Home() {
+  return (
+    <main
+      className="relative min-h-screen overflow-hidden bg-[#020617] text-white"
+      dir="rtl"
+    >
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(34,211,238,0.22),transparent_34%),radial-gradient(circle_at_12%_18%,rgba(124,58,237,0.18),transparent_26%),radial-gradient(circle_at_88%_42%,rgba(0,217,255,0.14),transparent_28%),linear-gradient(180deg,#020617_0%,#07111f_48%,#020617_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.055)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.055)_1px,transparent_1px)] bg-[size:54px_54px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_72%)]" />
+        <div className="absolute left-1/2 top-24 h-80 w-80 -translate-x-1/2 rounded-full bg-[#00D9FF]/15 blur-[110px]" />
+        <div className="absolute -left-24 top-1/3 h-96 w-96 rounded-full bg-[#7C3AED]/18 blur-[130px]" />
+        <div className="absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-[#22D3EE]/10 blur-[100px]" />
+      </div>
+
+      <header className="relative z-20 mx-auto flex w-full max-w-7xl items-center justify-center px-4 pt-5 sm:px-6 lg:px-8">
+        <motion.nav
+          initial={{ opacity: 0, y: -14 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="flex w-full items-center justify-between rounded-full border border-white/10 bg-white/[0.045] px-4 py-3 shadow-2xl shadow-cyan-950/20 backdrop-blur-2xl sm:px-5"
+        >
+          <a
+            href="#"
+            className="group flex items-center gap-3"
+            aria-label="AI Commerce Platform"
+          >
+            <span className="grid h-9 w-9 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_28px_rgba(34,211,238,0.25)] transition duration-300 group-hover:border-cyan-300/50 group-hover:bg-cyan-300/15">
+              <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
+            </span>
+            <span className="hidden text-sm font-semibold tracking-wide text-white sm:block">
+              AI Commerce
+            </span>
+          </a>
+
+          <div className="hidden items-center gap-1 lg:flex">
+            {navItems.map((item) => (
+              <a
+                key={item}
+                href="#"
+                className="rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <a
+              href="#"
+              className="hidden rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white sm:inline-flex"
+            >
+              تسجيل الدخول
+            </a>
+            <a
+              href="#"
+              className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_24px_rgba(255,255,255,0.18)] transition duration-300 hover:scale-[1.02] hover:bg-cyan-100 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)]"
+            >
+              ابدأ مجاناً
+            </a>
+          </div>
+        </motion.nav>
+      </header>
+
+      <section className="relative z-10 mx-auto grid min-h-[calc(100vh-88px)] w-full max-w-7xl items-center gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1.02fr_0.98fr] lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-3xl text-center lg:mx-0 lg:text-right">
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            className="mb-7 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-cyan-300/[0.06] px-4 py-2 text-sm text-cyan-100 shadow-[0_0_32px_rgba(34,211,238,0.12)] backdrop-blur-xl"
+          >
+            <span className="h-2 w-2 rounded-full bg-[#22D3EE] shadow-[0_0_14px_rgba(34,211,238,0.95)]" />
+            منصة ذكاء اصطناعي مصممة لمتاجر سلة
+          </motion.div>
+
+          <motion.h1
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.08, ease: "easeOut" }}
+            className="text-balance text-4xl font-semibold leading-[1.18] tracking-[-0.03em] text-white sm:text-5xl lg:text-6xl xl:text-7xl"
+          >
+            حوّل زوار متجرك إلى مشترين في ثوانٍ باستخدام{" "}
+            <span className="relative inline-block text-[#CFFAFE] drop-shadow-[0_0_24px_rgba(34,211,238,0.85)]">
+              الذكاء الاصطناعي
+              <span className="absolute inset-x-0 -bottom-2 h-px bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent shadow-[0_0_18px_rgba(0,217,255,0.95)]" />
+            </span>
+          </motion.h1>
+
+          <motion.p
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.18, ease: "easeOut" }}
+            className="mx-auto mt-7 max-w-2xl text-pretty text-lg leading-8 text-[#94A3B8] sm:text-xl lg:mx-0"
+          >
+            شات بوت ذكي يقرأ منتجات متجرك مباشرة من سلة ويجيب العملاء ويرسل
+            روابط شراء مباشرة لزيادة المبيعات تلقائياً.
+          </motion.p>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.75, delay: 0.28, ease: "easeOut" }}
+            className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start"
+          >
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="group relative inline-flex w-full items-center justify-center overflow-hidden rounded-full bg-[#00D9FF] px-7 py-4 text-sm font-bold text-slate-950 shadow-[0_0_42px_rgba(0,217,255,0.45)] transition duration-300 hover:shadow-[0_0_60px_rgba(34,211,238,0.62)] sm:w-auto"
+            >
+              <span className="absolute inset-0 bg-gradient-to-l from-white/35 via-transparent to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
+              <span className="relative">ابدأ تجربتك المجانية الآن</span>
+            </motion.a>
+            <motion.a
+              whileHover={{ y: -2, scale: 1.015 }}
+              whileTap={{ scale: 0.98 }}
+              href="#"
+              className="inline-flex w-full items-center justify-center rounded-full border border-white/12 bg-white/[0.055] px-7 py-4 text-sm font-semibold text-white shadow-2xl shadow-black/20 backdrop-blur-xl transition duration-300 hover:border-cyan-300/30 hover:bg-white/[0.085] hover:text-cyan-50 sm:w-auto"
+            >
+              شاهد الديمو الحقيقي
+            </motion.a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, x: -28 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.9, delay: 0.18, ease: "easeOut" }}
+          className="relative mx-auto w-full max-w-[620px] lg:mx-0"
+        >
+          <motion.div
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+            className="relative rounded-[2rem] border border-white/10 bg-[#0B132B]/78 p-3 shadow-[0_28px_90px_rgba(0,0,0,0.48),0_0_70px_rgba(34,211,238,0.13)] backdrop-blur-2xl"
+          >
+            <div className="absolute -inset-px rounded-[2rem] bg-gradient-to-br from-cyan-300/25 via-white/5 to-purple-500/20 opacity-70 blur-sm" />
+            <div className="relative overflow-hidden rounded-[1.55rem] border border-white/8 bg-slate-950/70">
+              <div className="flex items-center justify-between border-b border-white/8 bg-white/[0.035] px-5 py-4">
+                <div className="flex items-center gap-2">
+                  <span className="h-3 w-3 rounded-full bg-red-400/80" />
+                  <span className="h-3 w-3 rounded-full bg-amber-300/80" />
+                  <span className="h-3 w-3 rounded-full bg-emerald-400/80" />
+                </div>
+                <div className="rounded-full border border-white/8 bg-white/[0.04] px-4 py-1.5 text-xs text-slate-400">
+                  mystore.sa
+                </div>
+              </div>
+
+              <div className="grid gap-4 p-5 sm:grid-cols-[1fr_0.86fr]">
+                <div className="space-y-4">
+                  <div className="rounded-3xl border border-white/8 bg-white/[0.045] p-4">
+                    <div className="mb-4 h-36 rounded-2xl bg-[radial-gradient(circle_at_35%_25%,rgba(34,211,238,0.32),transparent_36%),linear-gradient(135deg,rgba(255,255,255,0.12),rgba(124,58,237,0.16))] shadow-inner shadow-white/5" />
+                    <div className="flex items-start justify-between gap-4">
+                      <div>
+                        <p className="text-sm font-semibold text-white">
+                          سماعات عزل ذكية
+                        </p>
+                        <p className="mt-1 text-xs text-slate-400">
+                          اقتراح AI حسب اهتمام العميل
+                        </p>
+                      </div>
+                      <span className="rounded-full bg-cyan-300/10 px-3 py-1 text-sm font-bold text-cyan-200">
+                        349 ر.س
+                      </span>
+                    </div>
+                    <button className="mt-4 w-full rounded-2xl bg-white px-4 py-3 text-sm font-bold text-slate-950 transition duration-300 hover:bg-cyan-100">
+                      شراء الآن
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    {products.map((product) => (
+                      <div
+                        key={product.name}
+                        className="rounded-2xl border border-white/8 bg-white/[0.04] p-3"
+                      >
+                        <div className="mb-3 h-14 rounded-xl bg-gradient-to-br from-cyan-300/14 to-purple-500/18" />
+                        <p className="truncate text-xs text-slate-300">
+                          {product.name}
+                        </p>
+                        <p className="mt-1 text-sm font-bold text-white">
+                          {product.price}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="relative flex min-h-[320px] flex-col justify-end overflow-hidden rounded-3xl border border-cyan-300/12 bg-[#06101f]/80 p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(34,211,238,0.16),transparent_46%)]" />
+                  <div className="relative mb-auto flex items-center gap-3 rounded-2xl border border-white/8 bg-white/[0.045] p-3">
+                    <span className="grid h-10 w-10 place-items-center rounded-2xl bg-cyan-300/12 text-sm font-black text-cyan-200 shadow-[0_0_24px_rgba(34,211,238,0.22)]">
+                      AI
+                    </span>
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        مساعد المتجر
+                      </p>
+                      <p className="text-xs text-cyan-100/70">
+                        متصل بمنتجات سلة
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative space-y-3">
+                    <div className="mr-auto max-w-[88%] rounded-2xl rounded-bl-md border border-white/8 bg-white/[0.06] p-3 text-xs leading-6 text-slate-200">
+                      أبحث عن هدية تقنية بسعر مناسب.
+                    </div>
+                    <div className="max-w-[92%] rounded-2xl rounded-br-md border border-cyan-300/16 bg-cyan-300/[0.08] p-3 text-xs leading-6 text-cyan-50 shadow-[0_0_28px_rgba(34,211,238,0.12)]">
+                      أنصحك بسماعات العزل الذكية. مناسبة جدًا، متوفرة الآن،
+                      ويمكنك شراؤها مباشرة.
+                    </div>
+                    <div className="rounded-2xl border border-white/8 bg-white/[0.055] p-3">
+                      <div className="flex items-center justify-between gap-3">
+                        <div>
+                          <p className="text-xs font-semibold text-white">
+                            سماعات عزل ذكية
+                          </p>
+                          <p className="text-xs text-slate-400">349 ر.س</p>
+                        </div>
+                        <button className="rounded-full bg-[#00D9FF] px-3 py-2 text-xs font-bold text-slate-950 shadow-[0_0_22px_rgba(0,217,255,0.35)]">
+                          رابط الشراء
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 6.5, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -right-2 top-20 hidden rounded-2xl border border-white/10 bg-white/[0.07] px-4 py-3 shadow-2xl shadow-black/30 backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">معدل التحويل</p>
+            <p className="mt-1 text-2xl font-bold text-white">+38%</p>
+          </motion.div>
+
+          <motion.div
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 5.8, repeat: Infinity, ease: "easeInOut" }}
+            className="absolute -bottom-5 left-3 hidden rounded-2xl border border-cyan-300/15 bg-[#0B132B]/70 px-4 py-3 shadow-[0_0_34px_rgba(34,211,238,0.12)] backdrop-blur-xl sm:block"
+          >
+            <p className="text-xs text-slate-400">رسائل AI اليوم</p>
+            <p className="mt-1 text-2xl font-bold text-cyan-100">1,284</p>
+          </motion.div>
+        </motion.div>
+      </section>
+
+      <section className="relative z-10 overflow-hidden border-t border-white/[0.06] px-4 py-24 sm:px-6 lg:px-8 lg:py-28">
+        <div className="pointer-events-none absolute inset-0">
+          <div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.04)_1px,transparent_1px)] bg-[size:48px_48px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_76%)]" />
+          <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-[#00D9FF]/12 blur-[120px]" />
+          <div className="absolute -right-28 bottom-12 h-80 w-80 rounded-full bg-[#7C3AED]/14 blur-[125px]" />
+          <div className="absolute left-10 top-1/3 h-56 w-56 rounded-full bg-[#22D3EE]/10 blur-[95px]" />
+        </div>
+
+        <div className="relative mx-auto max-w-7xl">
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.75, ease: "easeOut" }}
+            className="mx-auto max-w-3xl text-center"
+          >
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-300/15 bg-white/[0.045] px-4 py-2 text-sm text-cyan-100 shadow-[0_0_30px_rgba(34,211,238,0.1)] backdrop-blur-xl">
+              <span className="h-2 w-2 rounded-full bg-[#00D9FF] shadow-[0_0_14px_rgba(0,217,255,0.9)]" />
+              تشغيل سريع بدون تعقيد
+            </div>
+            <h2 className="text-balance text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl lg:text-5xl">
+              3 خطوات والتشغيل فوراً
+            </h2>
+            <p className="mx-auto mt-5 max-w-2xl text-pretty text-lg leading-8 text-[#94A3B8]">
+              اربط متجرك وابدأ تشغيل الذكاء الاصطناعي خلال دقائق.
+            </p>
+          </motion.div>
+
+          <div className="relative mt-14 grid gap-5 md:grid-cols-3 lg:gap-6">
+            <div className="pointer-events-none absolute left-8 right-8 top-16 hidden h-px bg-gradient-to-l from-transparent via-cyan-300/22 to-transparent md:block" />
+
+            {steps.map((step, index) => {
+              const StepIcon = step.icon;
+
+              return (
+                <motion.article
+                  key={step.number}
+                  initial={{ opacity: 0, y: 28 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{
+                    duration: 0.7,
+                    delay: index * 0.12,
+                    ease: "easeOut",
+                  }}
+                  whileHover={{ y: -8, scale: 1.015 }}
+                  className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0B132B]/58 p-px shadow-[0_24px_70px_rgba(0,0,0,0.28)] backdrop-blur-2xl"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-300/22 via-white/5 to-purple-500/18 opacity-60 transition duration-500 group-hover:opacity-100" />
+                  <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-[#22D3EE]/12 blur-[70px] transition duration-500 group-hover:bg-[#22D3EE]/20" />
+                  <div className="absolute -bottom-20 left-4 h-44 w-44 rounded-full bg-[#7C3AED]/10 blur-[75px] transition duration-500 group-hover:bg-[#7C3AED]/16" />
+
+                  <div className="relative h-full rounded-[calc(2rem-1px)] bg-slate-950/72 p-6 sm:p-7">
+                    <div className="mb-10 flex items-start justify-between gap-4">
+                      <motion.div
+                        animate={{ y: [0, -6, 0] }}
+                        transition={{
+                          duration: 5 + index * 0.7,
+                          repeat: Infinity,
+                          ease: "easeInOut",
+                        }}
+                        className="grid h-14 w-14 place-items-center rounded-2xl border border-cyan-300/16 bg-cyan-300/[0.08] text-cyan-100 shadow-[0_0_34px_rgba(34,211,238,0.16)] transition duration-500 group-hover:border-cyan-300/35 group-hover:bg-cyan-300/[0.12] group-hover:shadow-[0_0_48px_rgba(34,211,238,0.28)]"
+                      >
+                        <StepIcon className="h-6 w-6" strokeWidth={1.8} />
+                      </motion.div>
+
+                      <span className="bg-gradient-to-b from-white via-cyan-100 to-cyan-400 bg-clip-text text-6xl font-semibold leading-none text-transparent opacity-85 drop-shadow-[0_0_22px_rgba(34,211,238,0.22)] sm:text-7xl">
+                        {step.number}
+                      </span>
+                    </div>
+
+                    <h3 className="text-xl font-semibold tracking-[-0.02em] text-white sm:text-2xl">
+                      {step.title}
+                    </h3>
+                    <p className="mt-4 text-sm leading-7 text-[#94A3B8] sm:text-base">
+                      {step.description}
+                    </p>
+
+                    <div className="mt-7 flex items-center gap-3 text-xs font-semibold text-cyan-100/80">
+                      <span className="h-px w-10 bg-gradient-to-l from-[#00D9FF] to-transparent shadow-[0_0_14px_rgba(0,217,255,0.9)]" />
+                      جاهز خلال دقائق
+                    </div>
+                  </div>
+                </motion.article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+```
+
+
+## Assistant
+
+<thinking>
+**Validating Tailwind settings**
+
+I'm considering running some validation checks, like linting and building my code. I might need to look into diagnostics too. I wonder if the Tailwind hover:bg-white/8 is functioning as intended from a previous build. Is white/8 a valid opacity? I think Tailwind does support arbitrary opacities with that notation where it generates about 8%. Moving forward, I also need to check for any TypeScript issues related to variant types, especially with Framer. Time to run that lint check!
+</thinking>
+
+سأشغّل فحص lint للتأكد من سلامة TypeScript/React بعد إضافة القسم والاعتمادات الجديدة.
+
+**Tool Call: npm run lint**
+Status: Completed
+
+Terminal:
+```
+
+> ai-commerce-platform@0.1.0 lint
+> eslint
+
+
+
+```
+
+
+## Assistant
+
+<thinking>
+**Considering build issues**
+
+I’m thinking about whether I need to build something. There’s a chance the next build might fail because of the Google Fonts network, but I can run it anyway. Oh, and I noticed that the package-lock has changed, which could mean something important. I might need to run some diagnostics to figure out if everything is working as it should. It feels a bit uncertain, but I’m ready to tackle it!
+</thinking>
+
+سأشغّل build أيضًا للتأكد من أن الصفحة تُبنى بشكل صحيح مع Framer Motion وlucide-react.
+
+**Tool Call: npm run build**
+Status: Completed
+
+Terminal:
+```
+
+> ai-commerce-platform@0.1.0 build
+✓ Generating static pages using 5 workers (4/4) in 1582ms
+✓ Finalizing page optimization in 20ms
+
+Route (app)
+┌ ○ /
+└ ○ /_not-found
+
+
+○  (Static)  prerendered as static content
+
+
+```
+
+
+## Assistant
+
+<thinking>
+**Summarizing dependencies and vulnerabilities**
+
+I need to provide a concise summary of the final Arabic version, focusing on files, dependency validation, and any audit vulnerabilities. The `npm install` output highlights two moderate preexisting vulnerabilities from the dependencies, so I should definitely mention that they remain unaddressed. It’s also important to note that the Hero content has not been modified, only the imports were changed. That’s the final point to clarify.
+</thinking>
+
+تم بناء قسم **How It Works Section** أسفل الـ Hero الحالي بدون تغيير تصميم الـ Hero نفسه.
+
+### ما تم تنفيذه
+
+- إضافة قسم بعنوان: **"3 خطوات والتشغيل فوراً"**
+- إضافة الوصف: **"اربط متجرك وابدأ تشغيل الذكاء الاصطناعي خلال دقائق."**
+- بناء 3 بطاقات Responsive بتصميم:
+  - Glassmorphism خفيف
+  - Gradient Borders
+  - Ambient Glow
+  - Cyan / Purple lighting
+  - Soft Grid Overlay
+  - Hover animation + glow transition
+  - Floating icon animation
+- استخدام أيقونات من `lucide-react`:
+  - `UserPlus`
+  - `Link2`
+  - `Code2`
+- استخدام Framer Motion لحركات:
+  - fade up
+  - whileInView
+  - subtle hover
+  - floating effects
+
+### الملفات المعدلة
+
+- `ai-commerce-platform/src/app/page.tsx`
+- `ai-commerce-platform/package.json`
+- `ai-commerce-platform/package-lock.json`
+
+### الاعتمادات المضافة
+
+- `lucide-react`
+
+### التحقق
+
+تم تشغيل الأوامر التالية بنجاح:
+
+```bash
+npm run lint
+npm run build
+```
+
+ملاحظة: أثناء تثبيت الاعتماد ظهر تنبيه من `npm` بوجود `2 moderate vulnerabilities`، ولم أعدّلها لأنها ليست مرتبطة مباشرة بالقسم الجديد وقد تتطلب تحديثات أوسع.
