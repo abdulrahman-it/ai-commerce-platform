@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import {
   BarChart3,
@@ -14,7 +14,6 @@ import {
   HelpCircle,
   Link2,
   Mail,
-  Menu,
   MessageCircle,
   MessageSquareText,
   RefreshCw,
@@ -28,19 +27,8 @@ import {
   Store,
   TrendingUp,
   UserPlus,
-  X,
   Zap,
 } from "lucide-react";
-
-const navItems = [
-  { label: "الرئيسية", href: "#hero", section: "hero" },
-  { label: "المميزات", href: "#features", section: "features" },
-  { label: "الأقسام", href: "#dashboard", section: "dashboard" },
-  { label: "الأسعار", href: "#pricing", section: "pricing" },
-  { label: "من نحن", href: "#faq", section: "faq" },
-  { label: "اتصل بنا", href: "#contact", section: "contact" },
-  { label: "لوحة التحكم", href: "#dashboard", section: "dashboard" },
-];
 
 const products = [
   { name: "سماعات برو", price: "349 ر.س" },
@@ -196,15 +184,6 @@ const contactLinks = [
   { icon: Link2, label: "لينكدإن", value: "AI Commerce Platform" },
 ];
 
-const footerLinks = [
-  { label: "الرئيسية", href: "#hero" },
-  { label: "المميزات", href: "#features" },
-  { label: "الأقسام", href: "#dashboard" },
-  { label: "الأسعار", href: "#pricing" },
-  { label: "الأسئلة الشائعة", href: "#faq" },
-  { label: "اتصل بنا", href: "#contact" },
-];
-
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   visible: { opacity: 1, y: 0 },
@@ -212,50 +191,7 @@ const fadeUp = {
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(0);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState("hero");
   const shouldReduceMotion = useReducedMotion();
-
-  useEffect(() => {
-    const sectionIds = [
-      "hero",
-      "features",
-      "dashboard",
-      "pricing",
-      "faq",
-      "contact",
-      "footer",
-    ];
-    const observer = new IntersectionObserver(
-      (entries) => {
-        let nextSection = "hero";
-
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            nextSection = entry.target.id;
-            break;
-          }
-        }
-
-        if (nextSection !== "hero") {
-          setActiveSection(nextSection);
-        }
-      },
-      {
-        rootMargin: "-35% 0px -55% 0px",
-        threshold: 0.08,
-      },
-    );
-
-    sectionIds.forEach((id) => {
-      const element = document.getElementById(id);
-      if (element) {
-        observer.observe(element);
-      }
-    });
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <main
@@ -282,158 +218,6 @@ export default function Home() {
         <div className="absolute -left-24 top-1/3 h-96 w-96 rounded-full bg-[#7C3AED]/18 blur-2xl" />
         <div className="absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-[#22D3EE]/10 blur-2xl" />
       </div>
-
-      <header className="relative z-20 mx-auto flex w-full max-w-7xl items-center justify-center px-4 pt-5 sm:px-6 lg:px-8">
-        <motion.nav
-          initial={{ opacity: 0, y: -14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="group/nav relative flex w-full items-center justify-between overflow-hidden rounded-full border border-white/10 bg-white/[0.058] px-4 py-3 shadow-[0_18px_70px_rgba(0,0,0,0.32),inset_0_1px_0_rgba(255,255,255,0.08)] backdrop-blur-2xl transition duration-500 hover:border-cyan-300/18 hover:bg-white/[0.07] hover:shadow-[0_22px_80px_rgba(0,0,0,0.36),0_0_42px_rgba(34,211,238,0.08),inset_0_1px_0_rgba(255,255,255,0.1)] sm:px-5"
-        >
-          <div className="pointer-events-none absolute inset-x-8 top-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-60 transition duration-500 group-hover/nav:opacity-100" />
-          <div className="pointer-events-none absolute -inset-x-10 -top-16 h-20 bg-cyan-300/10 blur-3xl opacity-0 transition duration-700 group-hover/nav:opacity-100" />
-
-          <a
-            href="#"
-            className="group relative flex items-center gap-3"
-            aria-label="AI Commerce Platform"
-          >
-            <span className="grid h-9 w-9 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_28px_rgba(34,211,238,0.25)] transition duration-300 group-hover:border-cyan-300/50 group-hover:bg-cyan-300/15">
-              <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
-            </span>
-            <span className="hidden text-sm font-semibold tracking-wide text-white sm:block">
-              منصة الذكاء الاصطناعي التجارية
-            </span>
-          </a>
-
-          <div className="hidden items-center gap-1 lg:flex">
-            {navItems.map((item) => {
-              const isActive = activeSection === item.section;
-
-              return (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className={`relative rounded-full px-4 py-2 text-sm transition duration-300 ${
-                    isActive
-                      ? "bg-cyan-300/[0.1] text-cyan-100 shadow-[0_0_26px_rgba(34,211,238,0.2)]"
-                      : "text-slate-300 hover:bg-white/8 hover:text-white"
-                  }`}
-                >
-                  {isActive ? (
-                    <span className="absolute inset-x-4 -bottom-1 h-px bg-gradient-to-r from-transparent via-[#00D9FF] to-transparent shadow-[0_0_16px_rgba(0,217,255,0.9)]" />
-                  ) : null}
-                  {item.label}
-                </a>
-              );
-            })}
-          </div>
-
-          <div className="flex items-center gap-2">
-            <a
-              href="#"
-              className="hidden rounded-full px-4 py-2 text-sm text-slate-300 transition duration-300 hover:bg-white/8 hover:text-white sm:inline-flex"
-            >
-              تسجيل الدخول
-            </a>
-            <a
-              href="#"
-              className="hidden rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow-[0_0_24px_rgba(255,255,255,0.18)] transition duration-300 hover:scale-[1.02] hover:bg-cyan-100 hover:shadow-[0_0_34px_rgba(34,211,238,0.32)] sm:inline-flex"
-            >
-              ابدأ مجاناً
-            </a>
-            <button
-              type="button"
-              onClick={() => setIsMobileMenuOpen(true)}
-              className="grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-white/[0.055] text-white shadow-[0_0_24px_rgba(34,211,238,0.08)] backdrop-blur-xl transition duration-300 active:scale-95 active:border-cyan-300/30 active:bg-cyan-300/[0.08] lg:hidden"
-              aria-label="فتح القائمة"
-              aria-expanded={isMobileMenuOpen}
-            >
-              <Menu className="h-5 w-5" strokeWidth={1.9} />
-            </button>
-          </div>
-        </motion.nav>
-      </header>
-
-      <AnimatePresence>
-        {isMobileMenuOpen ? (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.22, ease: "easeOut" }}
-            className="fixed inset-0 z-50 bg-slate-950/55 backdrop-blur-xl lg:hidden"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            <motion.aside
-              initial={{ x: "100%", opacity: 0.9 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: "100%", opacity: 0.9 }}
-              transition={{ duration: 0.36, ease: [0.22, 1, 0.36, 1] }}
-              onClick={(event) => event.stopPropagation()}
-              className="absolute right-3 top-3 flex h-[calc(100dvh-1.5rem)] w-[min(88vw,380px)] flex-col overflow-hidden rounded-[2rem] border border-white/10 bg-[#071122]/82 p-4 shadow-[0_28px_110px_rgba(0,0,0,0.55),0_0_70px_rgba(34,211,238,0.12)] backdrop-blur-2xl"
-            >
-              <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#00D9FF]/14 blur-2xl" />
-              <div className="pointer-events-none absolute -bottom-24 left-0 h-64 w-64 rounded-full bg-[#7C3AED]/14 blur-2xl" />
-
-              <div className="relative flex items-center justify-between border-b border-white/[0.07] pb-4">
-                <div className="flex items-center gap-3">
-                  <span className="grid h-10 w-10 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_30px_rgba(34,211,238,0.18)]">
-                    <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
-                  </span>
-                  <span className="text-sm font-semibold text-white">
-                    منصة الذكاء الاصطناعي التجارية
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-white/[0.055] text-slate-200 transition duration-300 active:scale-95 active:border-cyan-300/30 active:bg-cyan-300/[0.08]"
-                  aria-label="إغلاق القائمة"
-                >
-                  <X className="h-5 w-5" strokeWidth={1.9} />
-                </button>
-              </div>
-
-              <nav className="relative mt-5 grid gap-2">
-                {navItems.map((item, index) => {
-                  const isActive = activeSection === item.section;
-
-                  return (
-                    <a
-                      key={`${item.section}-${index}`}
-                      href={item.href}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className={`relative rounded-2xl border px-4 py-4 text-sm font-medium transition duration-300 active:scale-[0.985] ${
-                        isActive
-                          ? "border-cyan-300/20 bg-cyan-300/[0.1] text-cyan-100 shadow-[0_0_30px_rgba(34,211,238,0.14)]"
-                          : "border-white/[0.07] bg-white/[0.035] text-slate-300 active:border-cyan-300/20 active:bg-white/[0.06]"
-                      }`}
-                    >
-                      {item.label}
-                    </a>
-                  );
-                })}
-              </nav>
-
-              <div className="relative mt-auto grid gap-3 border-t border-white/[0.07] pt-4">
-                <a
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/[0.055] px-5 py-3.5 text-sm font-semibold text-white transition duration-300 active:scale-[0.985] active:border-cyan-300/25 active:bg-white/[0.08]"
-                >
-                  تسجيل الدخول
-                </a>
-                <a
-                  href="#"
-                  className="inline-flex items-center justify-center rounded-full bg-[#00D9FF] px-5 py-3.5 text-sm font-bold text-slate-950 shadow-[0_0_46px_rgba(0,217,255,0.38)] ring-1 ring-cyan-100/30 transition duration-300 active:scale-[0.985]"
-                >
-                  ابدأ مجاناً
-                </a>
-              </div>
-            </motion.aside>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
 
       <section
         id="hero"
@@ -689,83 +473,78 @@ export default function Home() {
 
       <section
         id="features"
-        className="relative z-10 overflow-hidden scroll-mt-28 border-t border-white/[0.06] px-4 py-24 sm:px-6 lg:px-8 lg:py-28"
+        className="relative z-10 overflow-hidden scroll-mt-28 border-t border-white/[0.06] px-4 py-14 sm:px-6 lg:px-8 lg:py-16"
       >
-        <div className="pointer-events-none absolute inset-0">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,217,255,0.1),transparent_28%),radial-gradient(circle_at_78%_42%,rgba(124,58,237,0.13),transparent_30%),linear-gradient(180deg,rgba(2,6,23,0.2),rgba(2,6,23,0.94))]" />
-          <div className="absolute inset-0 bg-[linear-gradient(rgba(148,163,184,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.035)_1px,transparent_1px)] bg-[size:56px_56px] [mask-image:radial-gradient(ellipse_at_center,black,transparent_74%)]" />
-          <div className="absolute -top-16 right-1/4 h-72 w-72 rounded-full bg-[#22D3EE]/12 blur-2xl" />
-          <div className="absolute bottom-10 left-1/4 h-80 w-80 rounded-full bg-[#7C3AED]/12 blur-2xl" />
-          <div className="absolute left-10 top-24 h-28 w-28 rounded-full border border-cyan-300/10 bg-cyan-300/[0.035] blur-sm opacity-50" />
-        </div>
-
         <div className="relative mx-auto max-w-7xl">
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.75, ease: "easeOut" }}
+            variants={fadeUp}
+            initial="hidden"
+            animate="visible"
             className="mx-auto max-w-3xl text-center"
           >
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-purple-300/15 bg-white/[0.045] px-4 py-2 text-sm text-cyan-100 shadow-[0_0_30px_rgba(124,58,237,0.12)] backdrop-blur-xl">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-cyan-300/10 bg-white/[0.03] px-4 py-2 text-sm text-cyan-100">
               <MessageSquareText
                 className="h-4 w-4 text-[#22D3EE]"
                 strokeWidth={1.8}
               />
-              قدرات AI مصممة للبيع
+              ملخص المميزات الأساسية
             </div>
-            <h2 className="text-balance text-3xl font-semibold tracking-[-0.03em] text-white sm:text-4xl lg:text-5xl">
-              مميزات تجعل متجرك يعمل بالذكاء الاصطناعي
-            </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-pretty text-lg leading-8 text-[#94A3B8]">
-              منصة ذكية مصممة خصيصًا لمتاجر سلة لزيادة المبيعات وتحسين تجربة
-              العملاء تلقائيًا.
+
+            <h3 className="text-2xl font-semibold text-white">
+              اكتشف ماذا يمكن للذكاء الاصطناعي أن يفعل لمتجرك
+            </h3>
+            <p className="mt-3 text-sm text-[#94A3B8] mx-auto max-w-2xl">
+              عرض مختصر لأهم المميزات. للمزيد زر العرض الكامل.
             </p>
           </motion.div>
 
-          <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-            {features.map((feature, index) => {
-              const FeatureIcon = feature.icon;
-
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            {[
+              {
+                Icon: SearchCheck,
+                title: "بحث ذكي",
+                text: "فهم اللهجات والبحث الدلالي",
+              },
+              {
+                Icon: ShoppingCart,
+                title: "روابط شراء",
+                text: "بطاقات منتجات مع روابط قابلة للقياس",
+              },
+              {
+                Icon: BarChart3,
+                title: "تحليلات",
+                text: "مقاييس الأداء والتحويل بشكل مُركّز",
+              },
+            ].map((item) => {
+              const IconComp = item.Icon;
               return (
-                <article
-                  key={feature.title}
-                  className={`group relative min-h-[250px] overflow-hidden rounded-[2rem] border border-white/10 bg-[#0B132B]/54 p-px shadow-[0_24px_80px_rgba(0,0,0,0.26)] backdrop-blur-2xl transition duration-300 hover:-translate-y-1 ${feature.className}`}
+                <div
+                  key={item.title}
+                  className="rounded-2xl border border-white/[0.06] bg-white/[0.02] p-4"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-300/18 via-white/[0.035] to-purple-500/16 opacity-55 transition duration-500 group-hover:opacity-100" />
-                  <div className="absolute -right-20 top-0 h-52 w-52 rounded-full bg-[#22D3EE]/10 blur-2xl transition duration-500 group-hover:bg-[#22D3EE]/18" />
-                  <div className="absolute -bottom-24 left-8 h-52 w-52 rounded-full bg-[#7C3AED]/10 blur-2xl transition duration-500 group-hover:bg-[#7C3AED]/16" />
-
-                  <div className="relative flex h-full flex-col rounded-[calc(2rem-1px)] bg-slate-950/72 p-6 sm:p-7">
-                    <div className="flex items-start justify-between gap-6">
-                      <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl border border-cyan-300/16 bg-cyan-300/[0.08] text-cyan-100 shadow-[0_0_34px_rgba(34,211,238,0.15)] transition duration-500 group-hover:border-cyan-300/35 group-hover:bg-cyan-300/[0.13] group-hover:shadow-[0_0_52px_rgba(34,211,238,0.28)]">
-                        <FeatureIcon className="h-6 w-6" strokeWidth={1.8} />
-                      </div>
-
-                      <span className="rounded-full border border-white/10 bg-white/[0.045] px-3 py-1 text-xs font-semibold text-cyan-100/80">
-                        0{index + 1}
-                      </span>
+                  <div className="flex items-center gap-3">
+                    <div className="grid h-12 w-12 place-items-center rounded-2xl border border-cyan-300/14 bg-cyan-300/[0.06] text-cyan-100">
+                      <IconComp className="h-6 w-6" strokeWidth={1.7} />
                     </div>
-
-                    <div className="mt-9 flex-1">
-                      <h3 className="text-xl font-semibold tracking-[-0.02em] text-white sm:text-2xl">
-                        {feature.title}
-                      </h3>
-                      <p className="mt-4 max-w-2xl text-sm leading-7 text-[#94A3B8] sm:text-base">
-                        {feature.description}
+                    <div>
+                      <p className="text-sm font-semibold text-white">
+                        {item.title}
                       </p>
-                    </div>
-
-                    <div className="mt-8 flex items-center justify-between border-t border-white/[0.07] pt-5">
-                      <span className="text-xs font-semibold text-slate-400">
-                        AI Commerce Core
-                      </span>
-                      <span className="h-px w-14 bg-gradient-to-l from-[#00D9FF] to-transparent shadow-[0_0_16px_rgba(0,217,255,0.85)] transition duration-500 group-hover:w-20" />
+                      <p className="mt-1 text-xs text-[#94A3B8]">{item.text}</p>
                     </div>
                   </div>
-                </article>
+                </div>
               );
             })}
+          </div>
+
+          <div className="mt-6 text-center">
+            <a
+              href="/features"
+              className="inline-flex items-center justify-center rounded-full bg-[#00D9FF] px-5 py-3 text-sm font-semibold text-slate-950 shadow-[0_0_34px_rgba(0,217,255,0.32)]"
+            >
+              شاهد المميزات كاملة
+            </a>
           </div>
         </div>
       </section>
@@ -2143,72 +1922,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <footer
-        id="footer"
-        className="relative z-10 overflow-hidden scroll-mt-28 border-t border-white/[0.06] px-4 py-12 sm:px-6 lg:px-8"
-      >
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,rgba(34,211,238,0.1),transparent_34%),linear-gradient(180deg,rgba(2,6,23,0.4),#020617)]" />
-        <div className="relative mx-auto max-w-7xl">
-          <div className="grid gap-10 border-b border-white/[0.07] pb-10 lg:grid-cols-[1.1fr_0.9fr_0.8fr]">
-            <div>
-              <a href="#" className="inline-flex items-center gap-3">
-                <span className="grid h-10 w-10 place-items-center rounded-full border border-cyan-300/25 bg-cyan-300/10 shadow-[0_0_30px_rgba(34,211,238,0.18)]">
-                  <span className="h-2.5 w-2.5 rounded-full bg-[#00D9FF] shadow-[0_0_18px_rgba(0,217,255,0.9)]" />
-                </span>
-                <span className="text-lg font-semibold text-white">
-                  AI Commerce Platform
-                </span>
-              </a>
-              <p className="mt-5 max-w-md text-sm leading-7 text-[#94A3B8]">
-                منصة ذكاء اصطناعي لمتاجر سلة تساعد أصحاب المتاجر على زيادة
-                المبيعات وتحسين تجربة العملاء تلقائيًا.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="mb-4 text-sm font-semibold text-white">
-                روابط الصفحات
-              </h3>
-              <div className="grid grid-cols-2 gap-3 sm:max-w-sm">
-                {footerLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className="text-sm text-[#94A3B8] transition duration-300 hover:text-cyan-100"
-                  >
-                    {link.label}
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="mb-4 text-sm font-semibold text-white">تابعنا</h3>
-              <div className="flex gap-3">
-                {[
-                  { id: "whatsapp", Icon: MessageCircle },
-                  { id: "linkedin", Icon: Link2 },
-                  { id: "mail", Icon: Mail },
-                ].map(({ id, Icon }) => (
-                  <a
-                    key={id}
-                    href="#"
-                    className="grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.045] text-slate-300 transition duration-300 hover:border-cyan-300/25 hover:bg-cyan-300/[0.08] hover:text-cyan-100 hover:shadow-[0_0_28px_rgba(34,211,238,0.14)]"
-                  >
-                    <Icon className="h-4 w-4" strokeWidth={1.8} />
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center justify-between gap-4 pt-7 text-sm text-[#94A3B8] sm:flex-row">
-            <p>© 2026 AI Commerce Platform. جميع الحقوق محفوظة.</p>
-            <p className="text-cyan-100/70">Built for intelligent commerce.</p>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }

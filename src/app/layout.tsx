@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Cairo, Geist_Mono } from "next/font/google";
+import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/Navbar";
 import "./globals.css";
 
 const cairo = Cairo({
@@ -30,7 +32,11 @@ export default function RootLayout({
       dir="rtl"
       className={`${cairo.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#020617]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#020617]">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
